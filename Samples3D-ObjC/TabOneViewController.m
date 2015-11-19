@@ -46,6 +46,7 @@
         [alertController addAction:okAction];
         [self presentViewController:alertController animated:YES completion:nil];
     } else {
+        //can add another UIViewController
         UIStoryboard *MainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         ProfileViewController *profile = (ProfileViewController*)[MainStoryboard instantiateViewControllerWithIdentifier: @"ProfileViewController"];
         [self.navigationController pushViewController:profile animated:true];

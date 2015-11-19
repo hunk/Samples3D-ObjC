@@ -51,10 +51,7 @@
         
         if ([tabController.selectedViewController isKindOfClass:[UINavigationController class]]) {
             UINavigationController *currentNav = (UINavigationController*)tabController.selectedViewController;
-            
-            UIStoryboard *MainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-            ProfileViewController *profile = (ProfileViewController*)[MainStoryboard instantiateViewControllerWithIdentifier: @"ProfileViewController"];
-            [currentNav pushViewController:profile animated:true];
+            [currentNav pushViewController:previewViewController animated:true];
         }
 
     }];

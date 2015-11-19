@@ -37,7 +37,6 @@
 
 -(void)previewingContext:(id<UIViewControllerPreviewing>)previewingContext commitViewController:(UIViewController *)viewControllerToCommit{
     
-//    [self.navigationController pushViewController:viewControllerToCommit animated:true];
     [self presentViewController:viewControllerToCommit animated:true completion:nil];
     
 }
