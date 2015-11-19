@@ -9,6 +9,8 @@ This code contain examples of use of :
 ## Video
 [![Click or tap for watch the video](https://raw.githubusercontent.com/hunk/MediaDemo/master/Samples3D-ObjC/IMG_0792.PNG)](https://www.youtube.com/watch?v=Z1ZFbGimuYc)
 
+<a href="https://www.youtube.com/watch?v=Z1ZFbGimuYc" target="_blank">Watch video</a>
+
 The project is very basic, the base is a *UITabBarController* with 3 tabs.
 
 ## Quick Action
